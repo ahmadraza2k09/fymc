@@ -1,5 +1,9 @@
 {
+  "title": "FYMC",
   "description": "Explore FYMC’s mission, values, programs, and organizational information through a polished website that helps visitors understand its work and connect with the organization.",
+  "icons": {
+    "icon": "/fymc-logo.png"
+  },
   "robots": {
     "index": false
   },
