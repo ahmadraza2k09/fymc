@@ -882,6 +882,30 @@ footer {
   font-size: 16px;
 }
 
+.footer-watermark {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-watermark p {
+  margin: 0;
+}
+
+.footer-watermark a {
+  color: #70d3dc;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.18s ease;
+}
+
+.footer-watermark a:hover {
+  color: #ffffff;
+}
+
 /* RESPONSIVE DESIGN & PHONE VIEW FIXES FOR BLUE/YELLOW LINES */
 @media (max-width: 1024px) {
   .nav-links {

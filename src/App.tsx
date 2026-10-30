@@ -454,6 +454,20 @@ export default function App() {
           </a>
           <span>© {new Date().getFullYear()} FYMC. All rights reserved.</span>
         </div>
+        <div className="footer-watermark">
+          <div className="container">
+            <p>
+              Designed & Developed by{" "}
+              <a
+                href="https://youthawarenessnetwork.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Youth Awareness Network
+              </a>
+            </p>
+          </div>
+        </div>
       </footer>
     </main>
   )
